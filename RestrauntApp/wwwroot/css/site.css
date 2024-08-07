@@ -1,0 +1,375 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Montserrat";
+}
+
+header {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 50px;
+    list-style: none;
+}
+
+    .main-nav li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+        .main-nav li a {
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+            .main-nav li a:hover {
+                text-decoration: underline;
+                color: orange;
+            }
+
+.hero-box {
+    position: absolute;
+    top: 40%;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.btn {
+    border: orange 1px solid;
+    margin-right: 15px;
+    color: orange;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+    .btn:hover {
+        color: white;
+        background-color: orange;
+    }
+
+section {
+    padding: 40px 0px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+    h2::after {
+        content: "";
+        display: block;
+        width: 100px;
+        height: 5px;
+        background-color: orange;
+        margin: 20px auto;
+    }
+
+.features-desc {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.box {
+    text-align: center;
+    margin-bottom: 10px;
+}
+input[type=checkbox] {
+    margin-bottom: 0px !important;
+}
+    .box i {
+        color: orange;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .box h3 {
+        margin-bottom: 10px;
+    }
+
+    .box p {
+        line-height: 150%;
+        margin-bottom: 10px;
+    }
+
+.meal {
+    padding: 0px;
+    background-color: black;
+    overflow: hidden;
+}
+
+    .meal img {
+        width: 100%;
+        opacity: 0.6;
+        transition: 1s;
+        transform: scale(1.150);
+    }
+
+        .meal img:hover {
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+#works {
+    background-color: #eee;
+}
+
+.left-work {
+    text-align: right;
+    padding: 3%;
+}
+
+@media screen and (min-width: 480px) and (max-width: 730px) {
+    .left-work {
+        text-align: center;
+        /* padding: 3%; */
+    }
+}
+
+.app-iPhone {
+    width: 40%;
+}
+
+.right-work {
+    text-align: left;
+    padding: 3%;
+    padding-top: 70px;
+}
+
+.step {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+    .step div {
+        margin-right: 20px;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border: solid 2px orange;
+        padding: 13px;
+        border-radius: 50%;
+        color: orange;
+        text-align: center;
+        font-weight: bold;
+    }
+
+.brandes {
+    margin-top: 50px;
+}
+
+    .brandes a {
+        margin-right: 15px;
+    }
+
+    .brandes img {
+        height: 50px;
+    }
+
+.city img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.city h3 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.city-info {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+    .city-info i {
+        color: orange;
+        margin-right: 20px;
+    }
+
+.link {
+    color: orange;
+    text-decoration: underline;
+}
+
+#testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.comment p {
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.comment img {
+    width: 70px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+#signUp {
+    background-color: #eee;
+}
+
+.plan {
+    background-color: white;
+   /* margin: 20px;*/
+    width: 340px;
+    height: 410px;
+    position: relative;
+}
+
+    .plan h3 {
+        margin-top: 10px;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: unset;
+    }
+
+    .plan p {
+        /*margin: 20px;*/
+        color: orange;
+    }
+
+    .plan ul {
+        list-style: none;
+        border-bottom: #eee 2px solid;
+        border-top: #eee 2px solid;
+    }
+
+    .plan li {
+        margin: 15px;
+    }
+
+    .plan i {
+        font-size: 14px;
+        color: orange;
+        margin-right: 15px;
+    }
+
+.button {
+    position: absolute;
+    left: 100px;
+    bottom: 25px;
+    border: orange 1px solid;
+    color: orange;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+    .button:hover {
+        color: white;
+        background-color: orange;
+    }
+
+label {
+    font-size: 18px;
+    color: orange;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 7px;
+    border: solid #ccc 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type=checkbox] {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+button {
+    border: solid orange 1px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+}
+
+    button:hover {
+        background-color: transparent;
+        color: orange;
+    }
+
+footer {
+    background-color: #333;
+    padding: 30px 0px;
+}
+
+    footer p {
+        margin-top: 20px;
+        color: #888;
+        text-align: center;
+    }
+
+.footer-nav {
+    float: left;
+    list-style: none;
+}
+
+.social-nav {
+    float: right;
+}
+
+    .footer-nav li, .social-nav li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+        .footer-nav li a, .social-nav li a {
+            text-decoration: none;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+            .footer-nav li a:hover, .social-nav li a:hover {
+                text-decoration: underline;
+                color: orange;
+            }
+
+

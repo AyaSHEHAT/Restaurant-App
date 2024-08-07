@@ -1,0 +1,45 @@
+﻿@model List<Restaurant>
+@{
+    ViewData["Title"] = "FindRestaurant";
+}
+
+    @if(Model.Count() > 0)
+    {
+        
+<div class="row d-flex justify-content-evenly card-group">
+    @foreach (var item in Model)
+    {
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="~/images/@item.Logo" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h3 class="card-title text-capitalize">@item.Name</h3>
+                    <p class="card-text">
+                                City : @ViewBag.CityName
+                    </p>
+                        <p class="card-text">
+                            Address : @item.Address
+                        </p>
+                            <a asp-action="ShowItems" asp-controller="Home" asp-route-id="@item.Id">Menu</a>
+                </div>
+            </div>
+        </div>
+            </div> <!--Card one-->
+        }
+</div>
+
+    }
+    else
+    {
+        <div class="text-center">
+            <h3>There is no Restaurants in @ViewBag.CityName </h3>
+            <h5>Go back and choose another city <a type="button" class="btn btn-success" asp-action="Index">Back</a></h5>
+         </div>
+        
+    }
+
+</div>
+

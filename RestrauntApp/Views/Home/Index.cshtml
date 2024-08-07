@@ -1,0 +1,19 @@
+﻿@model City
+@{
+    ViewData["Title"] = "Home Page";
+    List<City> cities = ViewBag.Cities as List<City>;
+    SelectList citiesList = new SelectList(cities, "CityId", "Name", 200);
+}
+<div class="container">
+<div class="text-center">
+        <form asp-action="FindRestaurant" asp-controller="Home">
+        @* <input placeholder="Type the city name" type="search" name="find" id="findCity" class="form-control-lg" />
+        <input type="submit" value="Search" class="btn btn-success" /> *@
+            <select asp-for="CityId" asp-items="citiesList">
+                    <option>Select City</option>
+             </select>
+            <input type="submit" value="Search" class="btn btn-success" />
+    </form>
+
+    </div>
+   

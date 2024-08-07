@@ -1,0 +1,461 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RestrauntApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RestrauntApp.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\8.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\app-iPhone.png",
+      "PackagePath": "staticwebassets\\images\\app-iPhone.png"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\back-customers.jpg",
+      "PackagePath": "staticwebassets\\images\\back-customers.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\berlin.jpg",
+      "PackagePath": "staticwebassets\\images\\berlin.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\customer-1.jpg",
+      "PackagePath": "staticwebassets\\images\\customer-1.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\customer-2.jpg",
+      "PackagePath": "staticwebassets\\images\\customer-2.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\customer-3.jpg",
+      "PackagePath": "staticwebassets\\images\\customer-3.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\download-app-android.png",
+      "PackagePath": "staticwebassets\\images\\download-app-android.png"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\download-app.svg",
+      "PackagePath": "staticwebassets\\images\\download-app.svg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\hero.jpg",
+      "PackagePath": "staticwebassets\\images\\hero.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\lisbon-3.jpg",
+      "PackagePath": "staticwebassets\\images\\lisbon-3.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\logo-white.png",
+      "PackagePath": "staticwebassets\\images\\logo-white.png"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\logo1.png",
+      "PackagePath": "staticwebassets\\images\\logo1.png"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\logo2.png"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\logo3.png",
+      "PackagePath": "staticwebassets\\images\\logo3.png"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\logo4.png",
+      "PackagePath": "staticwebassets\\images\\logo4.png"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\logo5.png",
+      "PackagePath": "staticwebassets\\images\\logo5.png"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\logo6.png",
+      "PackagePath": "staticwebassets\\images\\logo6.png"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\london.jpg",
+      "PackagePath": "staticwebassets\\images\\london.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\meat.jpeg",
+      "PackagePath": "staticwebassets\\images\\meat.jpeg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\omnifood-content.pages",
+      "PackagePath": "staticwebassets\\images\\omnifood-content.pages"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\salad.jpeg",
+      "PackagePath": "staticwebassets\\images\\salad.jpeg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\san-francisco.jpg",
+      "PackagePath": "staticwebassets\\images\\san-francisco.jpg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\soap.jpeg",
+      "PackagePath": "staticwebassets\\images\\soap.jpeg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RestrauntApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RestrauntApp.props",
+      "PackagePath": "build\\RestrauntApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RestrauntApp.props",
+      "PackagePath": "buildMultiTargeting\\RestrauntApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RestrauntApp.props",
+      "PackagePath": "buildTransitive\\RestrauntApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

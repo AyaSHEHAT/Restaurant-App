@@ -1,0 +1,478 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <title>@ViewData["Title"] - RestrauntApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+   @*  <link rel="stylesheet" href="~/RestrauntApp.styles.css" asp-append-version="true" /> *@
+ 
+</head>
+
+<body style="overflow-x: hidden;">
+    <header>
+        <div class="container">
+            <nav>
+                <img src="~/images/logo-white.png" class="logo" alt="logo">
+                <ul class="main-nav">
+                    <li><a href="#">Food Delivery</a></li>
+                    <li><a href="#works">How It Work</a></li>
+                    <li><a href="#cities">Our Cities</a></li>
+                    <li><a href="#signUp">Sign Up</a></li>
+                </ul>
+            </nav>
+            <div class="hero-box">
+                <h1>GoodBy junk food <br> Hello Super healthy meals </h1>
+                <a href="#searchSection" class="btn">I'm hungry</a>
+                <a href="#features" class="btn">Show me more</a>
+
+        </div> <!-- end of heor-box -->
+
+        </div> <!-- end of container -->
+    </header>
+   <section id="searchSection">
+    <div class="container">
+        <main role="main" class="pb-3">
+                <h2>Choose your favourite city</h2>
+            @RenderBody()
+        </main>
+    </div>
+    </section> <!--end of searchSection-->
+    <section id="features">
+        <div class="container">
+            <h2>Get food fast - not fast food </h2>
+
+            <p class="features-desc">
+                Hello ,we're Omnifood,your new premium food delivery service. We know you're always busy. No time for
+                cooking. So let us take care of that. we're really good at it, we promise.
+            </p>
+            <div class="row">
+
+                <div class="col-lg-3 col-md-4 col-sm-6 box">
+                    <i class="fas fa-infinity fa-3x"></i>
+                    <h3>Up to 365 days/year</h3>
+                    <p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year
+                        coverage. You can also choose to order more flexibly if that's your style.</p>
+
+                </div><!-- 1 -->
+
+                <div class="col-lg-3 col-md-4 col-sm-6 box">
+                    <i class="far fa-clock fa-3x"></i>
+                    <h3>Ready in 20 minutes</h3>
+                    <p>You're only twenty minutes away from your delicious and super healthy meals delivered right to
+                        your home. We work with the best chefs in each town to ensure that you're 100% happy.
+                    </p>
+
+                </div><!-- 2 -->
+
+                <div class="col-lg-3 col-md-4 col-sm-6 box">
+                    <i class="fas fa-carrot fa-3x"></i>
+                    <h3>100% organic</h3>
+                    <p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or
+                        antibiotics. Good for your health, the environment, and it also tastes better!</p>
+
+                </div><!-- 3 -->
+
+                <div class="col-lg-3 col-md-4 col-sm-6 box">
+                    <i class="fas fa-cart-plus fa-3x"></i>
+                    <h3>Order anything</h3>
+                    <p>We don't limit your creativity, which means you can order whatever you feel like. You can also
+                        choose from our menu containing over 100 delicious meals. It's up to you!</p>
+
+                </div><!-- 4 -->
+
+            </div> <!-- eng of row -->
+        </div> <!-- eng of container -->
+    </section> <!-- end of features -->
+
+    <section id="meals">
+
+        <div class="row">
+
+            <div class="col-3 meal">
+                <img src="~/images/1.jpg" alt="food">
+            </div> <!-- 1 -->
+
+            <div class="col-3 meal">
+                <img src="~/images/2.jpg" alt="food">
+            </div> <!-- 2 -->
+
+            <div class="col-3 meal">
+                <img src="~/images/3.jpg" alt="food">
+            </div> <!-- 3 -->
+
+            <div class="col-3 meal">
+                <img src="~/images/4.jpg" alt="food">
+            </div> <!-- 4 -->
+
+            <div class="col-3 meal">
+                <img src="~/images/5.jpg" alt="food">
+            </div> <!-- 5 -->
+
+            <div class="col-3 meal">
+                <img src="~/images/6.jpg" alt="food">
+            </div> <!-- 6 -->
+
+            <div class="col-3 meal">
+                <img src="~/images/7.jpg" alt="food">
+            </div> <!-- 7 -->
+
+            <div class="col-3 meal">
+                <img src="~/images/8.jpg" alt="food">
+            </div> <!-- 8 -->
+
+        </div> <!-- end of row -->
+
+    </section> <!-- end of meals -->
+    <section id="works">
+        <h2>How it works - Simple as 1, 2, 3</h2>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 left-work">
+                    <img src="~/images/app-iPhone.png" class="app-iPhone" alt="app-iPhone">
+
+                </div> <!-- end of left -->
+
+                <div class="col-lg-6 col-md-6 col-sm-12 right-work">
+                    <div class="step">
+
+                        <div>1</div>
+                        <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+
+                    </div> <!-- 1 -->
+                    <div class="step">
+
+                        <div>2</div>
+                        <p> Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+
+                    </div> <!-- 2 -->
+                    <div class="step">
+
+                        <div>3</div>
+                        <p> Enjoy your meal after less than 20 minutes. See you the next time!</p>
+
+                    </div> <!-- 3 -->
+                    <div class="brandes">
+                        <a href="#"><img src="~/images/download-app.svg" alt=""></a>
+                        <a href="#"><img src="~/images/download-app-android.png" alt=""></a>
+
+                    </div> <!-- end of brandes -->
+
+                </div> <!-- end of right -->
+
+            </div> <!-- end of row -->
+
+        </div> <!-- end of container -->
+
+    </section> <!-- end of #works -->
+    <section id="cities">
+        <div class="container">
+            <h2>We're currently in these cities</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 city">
+                    <img src="~/images/lisbon-3.jpg" alt="">
+                    <h3>Lisbon</h3>
+                    <div class="city-info">
+                        <i class="fas fa-user"></i>
+                        <p>1600+ happy eaters</p>
+                    </div> <!-- info1 -->
+
+                    <div class="city-info">
+                        <i class="fas fa-star"></i>
+                        <p>60+ top chefs</p>
+                    </div> <!-- info2 -->
+
+                    <div class="city-info">
+                        <i class="fab fa-twitter"></i>
+                        <p class="link">@@omnifood_lx</p>
+                    </div> <!-- info3 -->
+
+                </div> <!-- 1 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 city">
+                    <img src="~/images/san-francisco.jpg" alt="">
+                    <h3>San Francisco</h3>
+                    <div class="city-info">
+                        <i class="fas fa-user"></i>
+                        <p>3700+ happy eaters</p>
+                    </div> <!-- info1 -->
+
+                    <div class="city-info">
+                        <i class="fas fa-star"></i>
+                        <p>1160+ top chefs</p>
+                    </div> <!-- info2 -->
+
+                    <div class="city-info">
+                        <i class="fab fa-twitter"></i>
+                        <p class="link">@@omnifood_sf</p>
+                    </div> <!-- info3 -->
+
+                </div> <!-- 1 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 city">
+                    <img src="~/images/berlin.jpg" alt="">
+                    <h3>Berlin</h3>
+                    <div class="city-info">
+                        <i class="fas fa-user"></i>
+                        <p>2300+ happy eaters</p>
+                    </div> <!-- info1 -->
+
+                    <div class="city-info">
+                        <i class="fas fa-star"></i>
+                        <p>110+ top chefs</p>
+                    </div> <!-- info2 -->
+
+                    <div class="city-info">
+                        <i class="fab fa-twitter"></i>
+                        <p class="link">@@omnifood_berlin</p>
+                    </div> <!-- info3 -->
+
+                </div> <!-- 1 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 city">
+                    <img src="~/images/london.jpg" alt="">
+                    <h3>London</h3>
+                    <div class="city-info">
+                        <i class="fas fa-user"></i>
+                        <p>1200+ happy eaters</p>
+                    </div> <!-- info1 -->
+
+                    <div class="city-info">
+                        <i class="fas fa-star"></i>
+                        <p>50+ top chefs</p>
+                    </div> <!-- info2 -->
+
+                    <div class="city-info">
+                        <i class="fab fa-twitter"></i>
+                        <p class="link">@@omnifood_london</p>
+                    </div> <!-- info3 -->
+
+                </div> <!-- 1 -->
+
+            </div> <!-- end of row -->
+        </div> <!-- end of container  -->
+    </section> <!-- end of #citiess -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>Our customers can't live without us</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6  comment">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so
+                        Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</p>
+                    <img src="~/images/customer-1.jpg" alt=""> Alberto Duncan
+
+                </div>
+                <div class="col-md-4 col-sm-6  comment">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food
+                        delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in
+                        love!</p>
+                    <img src="~/images/customer-2.jpg" alt=""> Joana Silva
+
+                </div>
+                <div class="col-md-4 col-sm-6  comment">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them
+                        and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+                    </p>
+                    <img src="~/images/customer-3.jpg" alt=""> Milton Chapman
+
+                </div>
+            </div> <!-- end of row -->
+
+        </div> <!-- end of container -->
+
+    </section> <!-- end of testimonials -->
+    <section id="signUp">
+        <div class="container">
+            <h2>Start eating healthy today</h2>
+            <div class="row justify-content-evenly ">
+                <div class="col-md-4 col-sm-6 plan">
+                    <div>
+                        <h3>PREMIUM</h3> <br>
+                        <p><b style="font-size: 50px; font-weight: unset;">$399</b>/month</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-check"></i>1 meal every day </li>
+                            <li> <i class="fas fa-check"></i> Order 24/7</li>
+                            <li> <i class="fas fa-check"></i> Access to newest creations</li>
+                            <li><i class="fas fa-check"></i>Free delivery</li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="button">Sign up now</a>
+
+                </div> <!-- end of plan -->
+                <div class="col-md-4 col-sm-6 plan">
+                    <div>
+                        <h3>Pro</h3> <br>
+                        <p><b style="font-size: 50px; font-weight: unset;">$149</b>/month</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-check"></i>1 meal 10 days/month</li>
+                            <li> <i class="fas fa-check"></i> Order 24/7</li>
+                            <li> <i class="fas fa-check"></i> Access to newest creations</li>
+                            <li><i class="fas fa-check"></i>Free delivery</li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="button">Sign up now</a>
+
+                </div> <!-- end of plan -->
+                <div class="col-md-4 col-sm-6 plan">
+                    <div>
+                        <h3>Starter</h3> <br>
+                        <p><b style="font-size: 50px; font-weight: unset;">$19</b>/meal</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-check"></i>1 meal</li>
+                            <li> <i class="fas fa-check"></i>Order from 8 am to 12 pm</li>
+                            <li> <i class="fas fa-times"></i></li>
+                            <li><i class="fas fa-check"></i>Free delivery</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="button">Sign up now</a>
+                </div> <!-- end of plan -->
+
+            </div> <!-- end of row -->
+
+        </div> <!-- end of container -->
+    </section> <!-- end of signUp -->
+
+    <section id="contant">
+        <div class="container">
+            <h2>We're happy to hear from you</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13673.937866475506!2d31.35451645158949!3d31.0406100042611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1629201079307!5m2!1sen!2seg"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+
+                </div>
+                <div class="col-md-6 contact-form">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-sm-8">
+                            <input type="text" placeholder="enter your name">
+                        </div>
+
+                    </div> <!-- row of name -->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label>Email</label>
+                        </div>
+                        <div class="col-sm-8">
+                            <input type="email" placeholder="@@Email">
+                        </div>
+
+                    </div> <!-- row of email -->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label>How did you find us?</label>
+                        </div>
+                        <div class="col-sm-8">
+                            <select>
+                                <option> Google</option>
+                                <option>FaceBook</option>
+                                <option>linked in</option>
+                                <option>linked in</option>
+                                <option>linked in</option>
+                            </select>
+
+                        </div> <!-- end of select -->
+
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label>Newsletter?</label>
+                        </div>
+                        <div class="col-sm-8">
+                            <input type="checkbox" checked>yes,please
+                        </div>
+
+                    </div> <!-- end of checkbox -->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label>Drop us a line</label>
+                        </div>
+                        <div class="col-sm-8">
+                            <textarea cols="30" rows="10" placeholder="your message"></textarea>
+                        </div>
+
+                    </div> <!-- end of textarea -->
+
+                    <div class="row">
+                        <div class="col-sm-4"> </div>
+                        <div class="col-sm-8">
+                            <button type="submit">Send it</button>
+                        </div>
+
+                    </div> <!-- end of button -->
+
+                </div> <!-- contact-form -->
+
+            </div> <!-- end of row -->
+
+        </div> <!-- container -->
+
+    </section> <!-- contant -->
+    <footer>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6">
+                <ul class="footer-nav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">IOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                    
+                </ul>  <!-- end of footer-nav -->
+               </div>
+
+               <div class="col-md-6">
+                <ul class="social-nav">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                    
+                </ul>
+
+               </div>
+
+           </div> <!-- end of row -->
+           <p>CopyRight By Omnifood &copy; 2021</p>
+
+       </div> <!-- end of container  -->
+    </footer> <!-- end of footer -->
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - RestrauntApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+
+</html>
