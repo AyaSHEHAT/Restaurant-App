@@ -37,6 +37,7 @@ namespace RestrauntApp.Controllers
 
             return RedirectToAction("Index");
         }
+
         /* public IActionResult ShowItems(int id, int page = 1)
          {
              if (id != 0)
@@ -55,6 +56,7 @@ namespace RestrauntApp.Controllers
              }
              return RedirectToAction("Index");
          }*/
+
         public IActionResult ShowItems(int id)
         {
             if (id != 0)
@@ -83,7 +85,37 @@ namespace RestrauntApp.Controllers
 
 			return View(items);
         }
-        public IActionResult Privacy()
+		[HttpPost]
+		public IActionResult MakeOrder(decimal totalPrice, List<Item> items)
+		{
+			Order newOrder = new Order
+			{
+				TotalPrice = totalPrice,
+				OrderDate = DateTime.Now,
+				Items = new List<Item>()
+			};
+
+			foreach (var item in items)
+			{
+				var dbItem = db.Items.FirstOrDefault(i => i.Id == item.Id);
+				if (dbItem != null)
+				{
+					newOrder.Items.Add(dbItem);
+				}
+			}
+
+			db.Orders.Add(newOrder);
+			db.SaveChanges();
+			return RedirectToAction("OrderConfirmation");
+		}
+
+		public IActionResult OrderConfirmation()
+		{
+			return View();
+		}
+
+
+		/*public IActionResult Privacy()
         {
             return View();
         }
@@ -92,6 +124,6 @@ namespace RestrauntApp.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
-    }
+        }*/
+	}
 }

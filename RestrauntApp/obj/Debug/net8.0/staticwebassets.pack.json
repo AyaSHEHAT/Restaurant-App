@@ -137,6 +137,10 @@
       "PackagePath": "staticwebassets\\images\\omnifood-content.pages"
     },
     {
+      "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\orderConfirmed.svg",
+      "PackagePath": "staticwebassets\\images\\orderConfirmed.svg"
+    },
+    {
       "Id": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\salad.jpeg",
       "PackagePath": "staticwebassets\\images\\salad.jpeg"
     },

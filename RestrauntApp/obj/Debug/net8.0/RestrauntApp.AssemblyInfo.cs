@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestrauntApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a192a7b4de7f25fbd34be74130588dba96d0a7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestrauntApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestrauntApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

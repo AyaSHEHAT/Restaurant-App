@@ -1,42 +1,47 @@
 ﻿@model IEnumerable<Item>
 @{
-	ViewData["Title"] = "Checkout";
-	
+    ViewData["Title"] = "Checkout";
+    var totalPrice = (decimal)ViewBag.TotalPrice;
 }
 
 <h1>Checkout</h1>
 <div>
+    @using (Html.BeginForm("MakeOrder", "Home", FormMethod.Post))
+    {
+       
+        @Html.Hidden("TotalPrice", totalPrice)
+        @for (int i = 0; i < Model.Count(); i++)
+        {
+            <input type="hidden" name="Items[@i].Id" value="@Model.ElementAt(i).Id" />
+            <input type="hidden" name="Items[@i].Price" value="@Model.ElementAt(i).Price" />
+        }
 
-	<div class="row">
+        <div class="row" style="margin:auto;">
+            @foreach (var item in Model)
+            {
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="~/images/@item.ItemImage" class="img-fluid rounded-start" style="height:150px;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title text-capitalize">@item.Name</h3>
+                                <p class="card-text text-danger">
+                                    <b>Price:</b> @item.Price EGP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--Card one-->
+            }
+        </div> <!--End of row-->
 
-		@foreach (var item in Model)
-		{
-			<div class="card mb-3" style="max-width: 540px;">
-				<div class="row">
-					<div class="col-md-4">
-
-						<img src="~/images/@item.ItemImage" class="img-fluid rounded-start" style="height:150px;">
-					</div>
-					<div class="col-md-8">
-						<div class="card-body">
-							<h3 class="card-title text-capitalize">@item.Name</h3>
-
-							<p class="card-text text-danger">
-								<b>Price:</b>   @item.Price EGP
-							</p>
-						</div>
-					</div>
-				</div>
-			</div> <!--Card one-->
-		}
-	</div> <!--End of row-->
-	<div>
-		<h3>Total: @ViewBag.TotalPrice</h3>
-		<a class="btn btn-success" asp-action="MakeOrder" asp-controller="Home">Make order</a>
-		<a class="btn btn-secondary" asp-action="ShowItems" asp-controller="Home">Edit order</a>
-		<a class="btn btn-outline-danger" href="/Home">Cancel order</a>
-
-
-	</div>
-
+        <div>
+            <h3>Total: @ViewBag.TotalPrice</h3>
+            <input type="submit" class="btn btn-success" value="Make order" />
+            <a class="btn btn-secondary" asp-action="ShowItems" asp-controller="Home">Edit order</a>
+            <a class="btn btn-outline-danger" href="/Home">Cancel order</a>
+        </div>
+    }
 </div>

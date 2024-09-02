@@ -11,6 +11,8 @@ namespace RestrauntApp.Models
         public string ItemImage { get; set; }
         public int RestaurantId { get; set; }
         public Restaurant Restaurant { get; set; }
-    }
+
+		public List<OrderItem> OrderItems { get; set; }
+	}
 
 }

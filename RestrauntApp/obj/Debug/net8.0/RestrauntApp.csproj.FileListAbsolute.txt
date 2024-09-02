@@ -250,3 +250,4 @@ E:\Jobs\SoftZone-Task\RestrauntApp\RestrauntApp\bin\Debug\net8.0\runtimes\win\li
 E:\Jobs\SoftZone-Task\RestrauntApp\RestrauntApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 E:\Jobs\SoftZone-Task\RestrauntApp\RestrauntApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\Jobs\SoftZone-Task\RestrauntApp\RestrauntApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+E:\Jobs\SoftZone-Task\RestrauntApp\RestrauntApp\obj\Debug\net8.0\RestrauntApp.sourcelink.json

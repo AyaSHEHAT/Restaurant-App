@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iju9AKwlmgN3Z7IAyPCCr/+A+o82dvrxGKA+Lp07Js8=",
+  "Hash": "1VxkQ7m3UdvwhhtzJhTm66DKoKFSkUSuRaxsS6a0/nw=",
   "Source": "RestrauntApp",
   "BasePath": "_content/RestrauntApp",
   "Mode": "Default",
@@ -680,6 +680,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\omnifood-content.pages"
+    },
+    {
+      "Identity": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\orderConfirmed.svg",
+      "SourceId": "RestrauntApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\",
+      "BasePath": "_content/RestrauntApp",
+      "RelativePath": "images/orderConfirmed.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\orderConfirmed.svg"
     },
     {
       "Identity": "E:\\Jobs\\SoftZone-Task\\RestrauntApp\\RestrauntApp\\wwwroot\\images\\salad.jpeg",
